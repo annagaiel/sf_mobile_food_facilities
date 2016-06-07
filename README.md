@@ -23,6 +23,14 @@ Or install it yourself as:
 ## Usage
 
     $ SfMobileFoodFacilities::Location.all
+    
+    $ SfMobileFoodFacilities::Location.first
+
+    $ SfMobileFoodFacilities::Location.last
+
+    $ SfMobileFoodFacilities::Facility::where(address: "400 CALIFORNIA ST", status: "APPROVED")
+
+    $ SfMobileFoodFacilities::Facility::find_by(:address, "400 CALIFORNIA ST")
 
 ## Development
 
