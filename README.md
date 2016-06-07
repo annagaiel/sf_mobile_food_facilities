@@ -1,8 +1,6 @@
 # SfMobileFoodFacilities
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sf_mobile_food_facilities`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+This an api-wrapper gem for SF open data portal - Mobile Food Facility Permits which includes the name of vendor, location, type of food sold, status of permit, and more.
 
 ## Installation
 
@@ -23,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
     $ SfMobileFoodFacilities::Location.all
-    
+
     $ SfMobileFoodFacilities::Location.first
 
     $ SfMobileFoodFacilities::Location.last
