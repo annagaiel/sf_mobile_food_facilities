@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{api wrapper from SF open data portal - Mobile Food Facility Permits.}
   spec.description   = %q{api wrapper includes the name of vendor, location, type of food sold and status of permit.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/annagaiel/sf_mobile_food_facilities"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
